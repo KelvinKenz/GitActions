@@ -13,6 +13,4 @@ jobs:
       - name: Say Hello
         run: |
             echo "Hello"
-            apt update
-      - name: install packages
-        run: sudo apt install docker -y
+            sudo apt update
