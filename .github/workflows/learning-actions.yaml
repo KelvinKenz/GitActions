@@ -13,4 +13,4 @@ jobs:
       - name: Say Hello
         run: |
             echo "Hello"
-            apt update
+            sudo apt update
