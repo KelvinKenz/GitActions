@@ -1,0 +1,16 @@
+name: Learning Github action
+
+on: 
+  workflow_dispatch
+  # push:
+  #   branches:
+  #     - main 
+
+jobs:
+  start-job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Say Hello
+        run: |
+            echo "Hello"
+            apt update
